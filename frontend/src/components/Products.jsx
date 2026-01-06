@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Rating from "./Rating";
